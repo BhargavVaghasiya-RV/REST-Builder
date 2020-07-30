@@ -1,0 +1,7 @@
+apiDir: "../student-details-api/src/main/java"
+apiPackagePath: "com.liferay.student.details"
+application:
+  baseURI: "/student"
+  className: "StudentDetails"
+  name: "student.details"
+author: "Ignek"

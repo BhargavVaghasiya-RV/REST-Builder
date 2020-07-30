@@ -1,0 +1,6 @@
+Bundle-Name: Student Details Api
+Bundle-SymbolicName: com.student.details.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.student.details.dto.v1_0,\
+	com.liferay.student.details.resource.v1_0
