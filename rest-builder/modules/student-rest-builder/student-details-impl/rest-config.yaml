@@ -4,4 +4,4 @@ application:
   baseURI: "/student"
   className: "StudentDetails"
   name: "student.details"
-author: "Ignek"
+author: "Bhargav"
