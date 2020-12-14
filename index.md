@@ -1,37 +1,43 @@
-## Welcome to GitHub Pages
+# REST-Builder
 
-You can use the [editor on GitHub](https://github.com/BhargavVaghasiya-RV/REST-Builder/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## In this example we will show you how to use REST-Builder of the liferay.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Please clone this project
 
-### Markdown
+You can download following files only it you want to show how other files are created automativally.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+From Student-details-api
+1. https://github.com/BhargavVaghasiya-RV/REST-Builder/blob/master/rest-builder/modules/student-rest-builder/student-details-api/bnd.bnd
+2. https://github.com/BhargavVaghasiya-RV/REST-Builder/blob/master/rest-builder/modules/student-rest-builder/student-details-api/build.gradle
 
-```markdown
-Syntax highlighted code block
+From Student-details-impl
+1. https://github.com/BhargavVaghasiya-RV/REST-Builder/blob/master/rest-builder/modules/student-rest-builder/student-details-impl/bnd.bnd
+2. https://github.com/BhargavVaghasiya-RV/REST-Builder/blob/master/rest-builder/modules/student-rest-builder/student-details-impl/build.gradle
+3. https://github.com/BhargavVaghasiya-RV/REST-Builder/blob/master/rest-builder/modules/student-rest-builder/student-details-impl/rest-config.yaml
+4. https://github.com/BhargavVaghasiya-RV/REST-Builder/blob/master/rest-builder/modules/student-rest-builder/student-details-impl/rest-openapi.yaml
 
-# Header 1
-## Header 2
-### Header 3
+Download above files in spacific folder
 
-- Bulleted
-- List
+Open this project in eclipse
 
-1. Numbered
-2. List
+Do BuildREST in the Student-details-impl
 
-**Bold** and _Italic_ and `Code` text
+Then build and deploy the Student-details-api
 
-[Link](url) and ![Image](src)
-```
+Then build and deploy the Student-details-impl
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Check the liferay logs both project should be started successfully
 
-### Jekyll Themes
+Open liferay control panel  >>  Configuration  >>  OAuth 2 Administration  >>  Add OAuth 2 Administration
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/BhargavVaghasiya-RV/REST-Builder/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Give Application name, Callback URIs
 
-### Support or Contact
+Select Headless server from the Client profile and save it.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Once you save it, it will show you other section in same page with the name "Scope"
+
+Select the name of the rest builder (Which you have mentioned in the rest-config file)
+
+again save it.
+
+Now you can test your rest api using postman application.
