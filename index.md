@@ -1,24 +1,10 @@
 # REST-Builder
 
-## In this example we will show you how to use REST-Builder of the liferay.
+## In this example we will show you how to use REST-Builder in the liferay 7.3.2.
 
-### Please clone this project
+## So here we go....
 
-You can download following files only it you want to show how other files are created automativally.
-
-From Student-details-api
-1. https://github.com/BhargavVaghasiya-RV/REST-Builder/blob/master/rest-builder/modules/student-rest-builder/student-details-api/bnd.bnd
-2. https://github.com/BhargavVaghasiya-RV/REST-Builder/blob/master/rest-builder/modules/student-rest-builder/student-details-api/build.gradle
-
-From Student-details-impl
-1. https://github.com/BhargavVaghasiya-RV/REST-Builder/blob/master/rest-builder/modules/student-rest-builder/student-details-impl/bnd.bnd
-2. https://github.com/BhargavVaghasiya-RV/REST-Builder/blob/master/rest-builder/modules/student-rest-builder/student-details-impl/build.gradle
-3. https://github.com/BhargavVaghasiya-RV/REST-Builder/blob/master/rest-builder/modules/student-rest-builder/student-details-impl/rest-config.yaml
-4. https://github.com/BhargavVaghasiya-RV/REST-Builder/blob/master/rest-builder/modules/student-rest-builder/student-details-impl/rest-openapi.yaml
-
-Download above files in spacific folder
-
-Open this project in eclipse
+### First of all please clone this project Open it in eclipse.
 
 Do BuildREST in the Student-details-impl
 
